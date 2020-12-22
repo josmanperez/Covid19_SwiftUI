@@ -3,16 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141078B9ED5F0AD8EEE90E9F /* Pods_Covid19Stats_Covid19StatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A20C55BE2D56A296175CB /* Pods_Covid19Stats_Covid19StatsUITests.framework */; };
 		997AAB902591E9B50016182F /* Covid19StatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAB8F2591E9B50016182F /* Covid19StatsApp.swift */; };
-		997AAB922591E9B50016182F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAB912591E9B50016182F /* ContentView.swift */; };
 		997AAB942591E9B60016182F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997AAB932591E9B60016182F /* Assets.xcassets */; };
 		997AAB972591E9B60016182F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997AAB962591E9B60016182F /* Preview Assets.xcassets */; };
 		997AABA22591E9B60016182F /* Covid19StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AABA12591E9B60016182F /* Covid19StatsTests.swift */; };
 		997AABAD2591E9B60016182F /* Covid19StatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AABAC2591E9B60016182F /* Covid19StatsUITests.swift */; };
+		997AAC0E2591EB4A0016182F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC032591EB490016182F /* MapView.swift */; };
+		997AAC0F2591EB4A0016182F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC042591EB4A0016182F /* SearchView.swift */; };
+		997AAC102591EB4A0016182F /* TotalDataCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC052591EB4A0016182F /* TotalDataCard.swift */; };
+		997AAC112591EB4A0016182F /* TotalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC062591EB4A0016182F /* TotalDataView.swift */; };
+		997AAC122591EB4A0016182F /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC072591EB4A0016182F /* CountryDetailView.swift */; };
+		997AAC132591EB4A0016182F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC082591EB4A0016182F /* ContentView.swift */; };
+		997AAC142591EB4A0016182F /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC092591EB4A0016182F /* RecentView.swift */; };
+		997AAC152591EB4A0016182F /* CountryDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC0A2591EB4A0016182F /* CountryDetailRow.swift */; };
+		997AAC162591EB4A0016182F /* CountryDataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC0B2591EB4A0016182F /* CountryDataRow.swift */; };
+		997AAC172591EB4A0016182F /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC0C2591EB4A0016182F /* MapContainerView.swift */; };
+		997AAC182591EB4A0016182F /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC0D2591EB4A0016182F /* ListHeaderView.swift */; };
+		997AAC462591EBE50016182F /* ApiCovid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997AAC432591EBE40016182F /* ApiCovid.plist */; };
+		997AAC472591EBE50016182F /* ApiCovid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC442591EBE40016182F /* ApiCovid.swift */; };
+		997AAC482591EBE50016182F /* ApiCovidConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC452591EBE40016182F /* ApiCovidConfigurator.swift */; };
+		997AAC4E2591EC0F0016182F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC4D2591EC0F0016182F /* Extensions.swift */; };
+		997AAC562591EC270016182F /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC532591EC270016182F /* Country.swift */; };
+		997AAC572591EC270016182F /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC542591EC270016182F /* Base.swift */; };
+		997AAC582591EC270016182F /* WorldSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997AAC552591EC270016182F /* WorldSummary.swift */; };
+		BB3CAF44CE4C31186367520F /* Pods_Covid19StatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6CF51FA9C4F32E88465005 /* Pods_Covid19StatsTests.framework */; };
+		FE238DCF4939F90D2C0494DF /* Pods_Covid19Stats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09068AB985F6FF17A61C8475 /* Pods_Covid19Stats.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09068AB985F6FF17A61C8475 /* Pods_Covid19Stats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19Stats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208A20C55BE2D56A296175CB /* Pods_Covid19Stats_Covid19StatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19Stats_Covid19StatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2233C12D7C1266B09A9D6046 /* Pods-Covid19Stats-Covid19StatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Stats-Covid19StatsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Covid19Stats-Covid19StatsUITests/Pods-Covid19Stats-Covid19StatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36291F657798068FDA1C8851 /* Pods-Covid19StatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19StatsTests.debug.xcconfig"; path = "Target Support Files/Pods-Covid19StatsTests/Pods-Covid19StatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6CF51FA9C4F32E88465005 /* Pods_Covid19StatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19StatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86904FEFFFE6632B8014F47E /* Pods-Covid19Stats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Stats.debug.xcconfig"; path = "Target Support Files/Pods-Covid19Stats/Pods-Covid19Stats.debug.xcconfig"; sourceTree = "<group>"; };
 		997AAB8C2591E9B50016182F /* Covid19Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19Stats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997AAB8F2591E9B50016182F /* Covid19StatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19StatsApp.swift; sourceTree = "<group>"; };
-		997AAB912591E9B50016182F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		997AAB932591E9B60016182F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997AAB962591E9B60016182F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		997AAB982591E9B60016182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +70,27 @@
 		997AABA82591E9B60016182F /* Covid19StatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Covid19StatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997AABAC2591E9B60016182F /* Covid19StatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19StatsUITests.swift; sourceTree = "<group>"; };
 		997AABAE2591E9B60016182F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997AAC032591EB490016182F /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		997AAC042591EB4A0016182F /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		997AAC052591EB4A0016182F /* TotalDataCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalDataCard.swift; sourceTree = "<group>"; };
+		997AAC062591EB4A0016182F /* TotalDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalDataView.swift; sourceTree = "<group>"; };
+		997AAC072591EB4A0016182F /* CountryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		997AAC082591EB4A0016182F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		997AAC092591EB4A0016182F /* RecentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		997AAC0A2591EB4A0016182F /* CountryDetailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailRow.swift; sourceTree = "<group>"; };
+		997AAC0B2591EB4A0016182F /* CountryDataRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDataRow.swift; sourceTree = "<group>"; };
+		997AAC0C2591EB4A0016182F /* MapContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
+		997AAC0D2591EB4A0016182F /* ListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		997AAC432591EBE40016182F /* ApiCovid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiCovid.plist; sourceTree = "<group>"; };
+		997AAC442591EBE40016182F /* ApiCovid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCovid.swift; sourceTree = "<group>"; };
+		997AAC452591EBE40016182F /* ApiCovidConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCovidConfigurator.swift; sourceTree = "<group>"; };
+		997AAC4D2591EC0F0016182F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		997AAC532591EC270016182F /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		997AAC542591EC270016182F /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		997AAC552591EC270016182F /* WorldSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldSummary.swift; sourceTree = "<group>"; };
+		A5AF6D053901DEFE89DA4C2E /* Pods-Covid19Stats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Stats.release.xcconfig"; path = "Target Support Files/Pods-Covid19Stats/Pods-Covid19Stats.release.xcconfig"; sourceTree = "<group>"; };
+		A777D69637CB0C0033CF7EC3 /* Pods-Covid19StatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19StatsTests.release.xcconfig"; path = "Target Support Files/Pods-Covid19StatsTests/Pods-Covid19StatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB5C41CAF5E54BF430412FDF /* Pods-Covid19Stats-Covid19StatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Stats-Covid19StatsUITests.release.xcconfig"; path = "Target Support Files/Pods-Covid19Stats-Covid19StatsUITests/Pods-Covid19Stats-Covid19StatsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE238DCF4939F90D2C0494DF /* Pods_Covid19Stats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3CAF44CE4C31186367520F /* Pods_Covid19StatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141078B9ED5F0AD8EEE90E9F /* Pods_Covid19Stats_Covid19StatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +128,8 @@
 				997AABA02591E9B60016182F /* Covid19StatsTests */,
 				997AABAB2591E9B60016182F /* Covid19StatsUITests */,
 				997AAB8D2591E9B50016182F /* Products */,
+				CC8CC0700B1E5FFF9CC068E7 /* Pods */,
+				CEDF913ADC1A69B5D77C1726 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +146,11 @@
 		997AAB8E2591E9B50016182F /* Covid19Stats */ = {
 			isa = PBXGroup;
 			children = (
+				997AAC522591EC130016182F /* Model */,
+				997AAC4C2591EBF60016182F /* Extensions */,
+				997AAC392591EBB30016182F /* API */,
+				997AABF22591EB110016182F /* View */,
 				997AAB8F2591E9B50016182F /* Covid19StatsApp.swift */,
-				997AAB912591E9B50016182F /* ContentView.swift */,
 				997AAB932591E9B60016182F /* Assets.xcassets */,
 				997AAB982591E9B60016182F /* Info.plist */,
 				997AAB952591E9B60016182F /* Preview Content */,
@@ -130,6 +184,75 @@
 			path = Covid19StatsUITests;
 			sourceTree = "<group>";
 		};
+		997AABF22591EB110016182F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				997AAC082591EB4A0016182F /* ContentView.swift */,
+				997AAC0B2591EB4A0016182F /* CountryDataRow.swift */,
+				997AAC0A2591EB4A0016182F /* CountryDetailRow.swift */,
+				997AAC072591EB4A0016182F /* CountryDetailView.swift */,
+				997AAC0D2591EB4A0016182F /* ListHeaderView.swift */,
+				997AAC0C2591EB4A0016182F /* MapContainerView.swift */,
+				997AAC032591EB490016182F /* MapView.swift */,
+				997AAC092591EB4A0016182F /* RecentView.swift */,
+				997AAC042591EB4A0016182F /* SearchView.swift */,
+				997AAC052591EB4A0016182F /* TotalDataCard.swift */,
+				997AAC062591EB4A0016182F /* TotalDataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		997AAC392591EBB30016182F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				997AAC432591EBE40016182F /* ApiCovid.plist */,
+				997AAC442591EBE40016182F /* ApiCovid.swift */,
+				997AAC452591EBE40016182F /* ApiCovidConfigurator.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		997AAC4C2591EBF60016182F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				997AAC4D2591EC0F0016182F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		997AAC522591EC130016182F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				997AAC542591EC270016182F /* Base.swift */,
+				997AAC532591EC270016182F /* Country.swift */,
+				997AAC552591EC270016182F /* WorldSummary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC8CC0700B1E5FFF9CC068E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86904FEFFFE6632B8014F47E /* Pods-Covid19Stats.debug.xcconfig */,
+				A5AF6D053901DEFE89DA4C2E /* Pods-Covid19Stats.release.xcconfig */,
+				2233C12D7C1266B09A9D6046 /* Pods-Covid19Stats-Covid19StatsUITests.debug.xcconfig */,
+				CB5C41CAF5E54BF430412FDF /* Pods-Covid19Stats-Covid19StatsUITests.release.xcconfig */,
+				36291F657798068FDA1C8851 /* Pods-Covid19StatsTests.debug.xcconfig */,
+				A777D69637CB0C0033CF7EC3 /* Pods-Covid19StatsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEDF913ADC1A69B5D77C1726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09068AB985F6FF17A61C8475 /* Pods_Covid19Stats.framework */,
+				208A20C55BE2D56A296175CB /* Pods_Covid19Stats_Covid19StatsUITests.framework */,
+				5C6CF51FA9C4F32E88465005 /* Pods_Covid19StatsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997AABB12591E9B60016182F /* Build configuration list for PBXNativeTarget "Covid19Stats" */;
 			buildPhases = (
+				11DD1506B43B729A977BEAB6 /* [CP] Check Pods Manifest.lock */,
 				997AAB882591E9B50016182F /* Sources */,
 				997AAB892591E9B50016182F /* Frameworks */,
 				997AAB8A2591E9B50016182F /* Resources */,
+				AE37CBD17B82C3380435AC07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997AABB42591E9B60016182F /* Build configuration list for PBXNativeTarget "Covid19StatsTests" */;
 			buildPhases = (
+				2C92D67ACB79E821BC94F349 /* [CP] Check Pods Manifest.lock */,
 				997AAB992591E9B60016182F /* Sources */,
 				997AAB9A2591E9B60016182F /* Frameworks */,
 				997AAB9B2591E9B60016182F /* Resources */,
@@ -172,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997AABB72591E9B60016182F /* Build configuration list for PBXNativeTarget "Covid19StatsUITests" */;
 			buildPhases = (
+				093C74BFBA3969D52FA20F50 /* [CP] Check Pods Manifest.lock */,
 				997AABA42591E9B60016182F /* Sources */,
 				997AABA52591E9B60016182F /* Frameworks */,
 				997AABA62591E9B60016182F /* Resources */,
+				55579850B1188D9408ED3522 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				997AAB972591E9B60016182F /* Preview Assets.xcassets in Resources */,
+				997AAC462591EBE50016182F /* ApiCovid.plist in Resources */,
 				997AAB942591E9B60016182F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +383,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		093C74BFBA3969D52FA20F50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid19Stats-Covid19StatsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11DD1506B43B729A977BEAB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid19Stats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C92D67ACB79E821BC94F349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid19StatsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55579850B1188D9408ED3522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats-Covid19StatsUITests/Pods-Covid19Stats-Covid19StatsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats-Covid19StatsUITests/Pods-Covid19Stats-Covid19StatsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats-Covid19StatsUITests/Pods-Covid19Stats-Covid19StatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE37CBD17B82C3380435AC07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats/Pods-Covid19Stats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats/Pods-Covid19Stats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid19Stats/Pods-Covid19Stats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		997AAB882591E9B50016182F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997AAB922591E9B50016182F /* ContentView.swift in Sources */,
+				997AAC122591EB4A0016182F /* CountryDetailView.swift in Sources */,
+				997AAC172591EB4A0016182F /* MapContainerView.swift in Sources */,
+				997AAC112591EB4A0016182F /* TotalDataView.swift in Sources */,
+				997AAC132591EB4A0016182F /* ContentView.swift in Sources */,
+				997AAC472591EBE50016182F /* ApiCovid.swift in Sources */,
+				997AAC482591EBE50016182F /* ApiCovidConfigurator.swift in Sources */,
 				997AAB902591E9B50016182F /* Covid19StatsApp.swift in Sources */,
+				997AAC152591EB4A0016182F /* CountryDetailRow.swift in Sources */,
+				997AAC572591EC270016182F /* Base.swift in Sources */,
+				997AAC0F2591EB4A0016182F /* SearchView.swift in Sources */,
+				997AAC102591EB4A0016182F /* TotalDataCard.swift in Sources */,
+				997AAC582591EC270016182F /* WorldSummary.swift in Sources */,
+				997AAC4E2591EC0F0016182F /* Extensions.swift in Sources */,
+				997AAC162591EB4A0016182F /* CountryDataRow.swift in Sources */,
+				997AAC562591EC270016182F /* Country.swift in Sources */,
+				997AAC0E2591EB4A0016182F /* MapView.swift in Sources */,
+				997AAC142591EB4A0016182F /* RecentView.swift in Sources */,
+				997AAC182591EB4A0016182F /* ListHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +662,7 @@
 		};
 		997AABB22591E9B60016182F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86904FEFFFE6632B8014F47E /* Pods-Covid19Stats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +685,7 @@
 		};
 		997AABB32591E9B60016182F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AF6D053901DEFE89DA4C2E /* Pods-Covid19Stats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +708,7 @@
 		};
 		997AABB52591E9B60016182F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36291F657798068FDA1C8851 /* Pods-Covid19StatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +731,7 @@
 		};
 		997AABB62591E9B60016182F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A777D69637CB0C0033CF7EC3 /* Pods-Covid19StatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +754,7 @@
 		};
 		997AABB82591E9B60016182F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2233C12D7C1266B09A9D6046 /* Pods-Covid19Stats-Covid19StatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +775,7 @@
 		};
 		997AABB92591E9B60016182F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5C41CAF5E54BF430412FDF /* Pods-Covid19Stats-Covid19StatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

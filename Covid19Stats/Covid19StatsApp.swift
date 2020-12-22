@@ -2,7 +2,7 @@
 //  Covid19StatsApp.swift
 //  Covid19Stats
 //
-//  Created by Josman Pedro Pérez Expósito on 22/12/20.
+//  Created by Josman Pedro Pérez Expósito on 17/12/2020.
 //
 
 import SwiftUI

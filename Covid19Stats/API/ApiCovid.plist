@@ -2,13 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
+	<key>covid</key>
 	<dict>
-		<key>Covid19Stats.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
+		<key>baseUrl</key>
+		<string>https://corona.lmao.ninja/v2</string>
+		<key>totals</key>
+		<string>/all</string>
+		<key>countries</key>
+		<string>/countries</string>
 	</dict>
 </dict>
 </plist>
