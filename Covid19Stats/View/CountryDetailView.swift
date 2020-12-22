@@ -30,7 +30,7 @@ struct CountryDetailView: View {
             
             Spacer()
         }
-        .padding(.top, 50)
+        .padding(.top, 20)
         .navigationTitle(countryData.country)
     }
 }

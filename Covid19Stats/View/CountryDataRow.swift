@@ -22,6 +22,8 @@ struct CountryDataRow: View {
             Spacer()
             
             Text(countryData.todayCases?.formatNumber() ?? "0")
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
                 .font(.subheadline)
                 .frame(width: 70, height: 40)
                 .padding(.leading, 5)
@@ -29,6 +31,8 @@ struct CountryDataRow: View {
             Spacer()
             
             Text(countryData.todayDeaths?.formatNumber() ?? "0")
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
                 .font(.subheadline)
                 .frame(width: 50, height: 40, alignment: .center)
                 .padding(.leading, 5)
@@ -36,6 +40,8 @@ struct CountryDataRow: View {
             Spacer()
             
             Text(countryData.todayRecovered?.formatNumber() ?? "0")
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
                 .font(.subheadline)
                 .frame(width: 80, height: 40, alignment: .center)
                 .padding(.leading, 5)
